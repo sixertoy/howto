@@ -1,5 +1,4 @@
-# Howto Node
-> ...generate Markdown Documentation
+# ...generate Markdown Documentation
 
 ##### Modules
 
