@@ -1,6 +1,6 @@
 # Howto Node
 
-> Some howto for NodeJS
+> Some howtos for NodeJS
 
 ## How to generate Markdown Documentation
 
