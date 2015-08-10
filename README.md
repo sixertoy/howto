@@ -1,6 +1,6 @@
-# Howto Node
+# Howto Project
 
-> Some howtos for NodeJS
+> Some howtos for projects
 
 ## How to generate Markdown Documentation
 
