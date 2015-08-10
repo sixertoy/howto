@@ -1,4 +1,4 @@
-# ...generate REST API with Swagger and Bootprint
+# ...generate REST API w/ Swagger + Bootprint
 
 ## Modules 
 
