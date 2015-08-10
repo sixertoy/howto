@@ -1,5 +1,5 @@
 # howto
 
-- [Build documentation Markdown to HTML]()
-- [Serve statics files]()
-- [Generate REST API documentation with Swagger]()
+- [Build documentation Markdown to HTML](DOCUMENT.md)
+- [Serve statics files](SERVE.md)
+- [Generate REST API documentation with Swagger](SWAGGER.md)
