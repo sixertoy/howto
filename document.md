@@ -1,11 +1,11 @@
 # ...generate Markdown Documentation
 
-##### Modules
+## Modules
 
 - [gh-markdown-cli](https://github.com/millermedeiros/gh-markdown-cli)
 - [generate-github-markdown-css](https://github.com/sindresorhus/generate-github-markdown-css)
 
-##### Command line
+## Command line
 
 ```bash
 npm install -g install gh-markdown-cli generate-github-markdown-css
@@ -13,9 +13,9 @@ mdown --input "./src/docs/**/*.md" --output ./build/docs --header "./src/docs/as
 github-markdown-css > ./build/docs/github-markdown.css
 ```
 
-##### Files
+## Files
 
-> **assets/header.html**
+##### assets/header.html
 
 ```html
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ github-markdown-css > ./build/docs/github-markdown.css
         <!-- endof content -->
 ```
 
-> **assets/footer.html**
+##### assets/footer.html
 
 ```html
     <!-- endof content -->
