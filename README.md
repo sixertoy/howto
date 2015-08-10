@@ -6,6 +6,8 @@
 
 ```bash
 npm install -g install gh-markdown-cli generate-github-markdown-css
+mdown --input "./src/docs/**/*.md" --output ./build/docs --header "./src/docs/assets/header.html" --footer "./src/docs/assets/footer.html"
+github-markdown-css > ./build/docs/github-markdown.css
 ```
 
 ##### Command line
