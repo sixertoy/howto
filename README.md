@@ -1,6 +1,6 @@
-# Howto Project
+# Howto Node
 
-> Some howtos for projects
+> Some howtos
 
 ## How to generate Markdown Documentation
 
