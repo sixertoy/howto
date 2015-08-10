@@ -8,9 +8,9 @@
 npm install -g install gh-markdown-cli generate-github-markdown-css
 ```
 
-#### Command line
+##### Command line
 
-#### Links
+##### Links
 
 - [gh-markdown-cli](https://github.com/millermedeiros/gh-markdown-cli)
 - [generate-github-markdown-css](https://github.com/sindresorhus/generate-github-markdown-css)
