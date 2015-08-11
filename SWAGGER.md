@@ -2,7 +2,7 @@
 
 ## Example
 
-http://editor.swagger.io/#/
+http://editor.swagger.io
 
 ## Modules 
 
