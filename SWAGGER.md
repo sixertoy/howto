@@ -1,5 +1,9 @@
 # ...generate REST API w/ Swagger + Bootprint
 
+## Example
+
+http://editor.swagger.io/#/
+
 ## Modules 
 
 ```bash
