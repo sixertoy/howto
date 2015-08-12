@@ -1,3 +1,3 @@
-# ..server statics files
+# ExpressJS serve statics files
 
 
