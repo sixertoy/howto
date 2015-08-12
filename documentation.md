@@ -15,5 +15,5 @@ github-markdown-css > ./build/docs/github-markdown.css
 
 ## Files
 
-- [assets/header.html]()
-- [assets/footer.html]()
+- [assets/header.html](https://raw.githubusercontent.com/sixertoy/howto/master/files/docs/assets/header.html)
+- [assets/footer.html](https://raw.githubusercontent.com/sixertoy/howto/master/files/docs/assets/footer.html)
