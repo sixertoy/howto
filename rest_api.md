@@ -18,4 +18,4 @@ bootprint swagger ./src/docs/restapi.json ./build/docs/v1
 
 ## Files
 
-[docs/restapi.json]()
+[restapi.json]()
