@@ -1,4 +1,4 @@
-# ...generate Markdown Documentation
+# Markdown Documentation
 
 ## Modules
 
