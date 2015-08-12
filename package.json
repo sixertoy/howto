@@ -1,0 +1,23 @@
+{
+    "name": "howto",
+    "version": "1.0.0",
+    "description": "Some HOWTO files",
+    "main": "",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sixertoy/howto.git"
+    },
+    "keywords": [
+    "howto",
+    "expressjs",
+    "documentation",
+    "swagger"
+  ],
+    "author": "Matthieu Lassalvy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sixertoy/howto/issues"
+    },
+    "homepage": "https://github.com/sixertoy/howto#readme"
+}
