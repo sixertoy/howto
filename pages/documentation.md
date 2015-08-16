@@ -15,8 +15,8 @@ github-markdown-css > ./build/docs/github-markdown.css
 
 ## Files
 
-- [assets/header.html](./../files/docs_assets/header.html)
-- [assets/footer.html](./../files/docs_assets/footer.html)
+- [assets/header.html](./../files/docs_assets_header.html)
+- [assets/footer.html](./../files/docs_assets_footer.html)
 
 ## Modules
 
