@@ -1,5 +1,6 @@
 # HOWTO
 
-- [How to generate github like documentation](https://github.com/sixertoy/howto/blob/master/pages/documentation.md)
-- [How to serve static html pages with ExpressJS](https://github.com/sixertoy/howto/blob/master/pages/expressjs_static.md)
-- [How to build an REST API with Swagger](https://github.com/sixertoy/howto/blob/master/pages/rest_api.md)
+- [Test with Mocha](./pages/mocha.md)
+- [Generate github like documentation](./pages/documentation.md)
+- [Serve static html pages with ExpressJS](./pages/expressjs_static.md)
+- [Build an REST API with Swagger](./pages/rest_api.md)
