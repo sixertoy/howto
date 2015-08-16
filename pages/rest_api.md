@@ -1,10 +1,6 @@
 # REST API w/ Swagger + Bootprint
 
-## Example
-
-http://editor.swagger.io
-
-## Modules 
+## Install 
 
 ```bash
 npm install -g bootprint bootprint-swagger
@@ -18,4 +14,12 @@ bootprint swagger ./src/docs/restapi.json ./build/docs/v1
 
 ## Files
 
-[restapi.json]()
+[rest_api.json](./../files/rest_api.json)
+
+## Modules
+
+- [Swagger](http://swagger.io)
+
+## Example
+
+[Swagger Editor](http://editor.swagger.io)

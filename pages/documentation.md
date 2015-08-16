@@ -1,19 +1,24 @@
 # Markdown Documentation
 
-## Modules
+## Install
 
-- [gh-markdown-cli](https://github.com/millermedeiros/gh-markdown-cli)
-- [generate-github-markdown-css](https://github.com/sindresorhus/generate-github-markdown-css)
+```bash
+npm install -g install gh-markdown-cli generate-github-markdown-css
+```
 
 ## Command line
 
 ```bash
-npm install -g install gh-markdown-cli generate-github-markdown-css
 mdown --input "./src/docs/**/*.md" --output ./build/docs --header "./src/docs/assets/header.html" --footer "./src/docs/assets/footer.html"
 github-markdown-css > ./build/docs/github-markdown.css
 ```
 
 ## Files
 
-- [assets/header.html](https://raw.githubusercontent.com/sixertoy/howto/master/files/docs/assets/header.html)
-- [assets/footer.html](https://raw.githubusercontent.com/sixertoy/howto/master/files/docs/assets/footer.html)
+- [assets/header.html](./../files/docs_assets/header.html)
+- [assets/footer.html](./../files/docs_assets/footer.html)
+
+## Modules
+
+- [gh-markdown-cli](https://github.com/millermedeiros/gh-markdown-cli)
+- [generate-github-markdown-css](https://github.com/sindresorhus/generate-github-markdown-css)
