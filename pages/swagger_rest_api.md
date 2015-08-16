@@ -9,12 +9,12 @@ npm install -g bootprint bootprint-swagger
 ## Command line
 
 ```bash
-bootprint swagger ./src/docs/restapi.json ./build/docs/v1
+bootprint swagger ./src/docs/swagger_rest_api.json ./build/docs/v1
 ```
 
 ## Files
 
-[rest_api.json](./../files/rest_api.json)
+- [src/docs/swagger_rest_api.json](./../files/swagger_rest_api.json)
 
 ## Modules
 

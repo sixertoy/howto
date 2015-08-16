@@ -22,7 +22,7 @@ env NODE_ENV=development istanbul cover -x *.spec.js node_modules/mocha/bin/_moc
 
 ## Files
 
-- [spec/src/<my_module>.spec.js](./../files/mocha_test.spec.js)
+- [spec/src/mocha_tests.spec.js](./../files/mocha_tests.spec.js)
 
 ### Modules
 
