@@ -15,6 +15,8 @@ npm install mocha supertest sinon chai --save-dev
 istanbul cover ./scripts/jasmine_node --captureExceptions spec/src/**/*
 
 ```bash
+istanbul cover -x *.spec.js node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./spec/src/**/*
+#
 istanbul cover -x *.spec.js node_modules/mocha/bin/_mocha --report lcovonly --captureExceptions -- -R spec ./spec/src/**/*
 # development environment
 env NODE_ENV=development istanbul cover -x *.spec.js node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./spec/src/**/*
