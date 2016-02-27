@@ -2,8 +2,8 @@
 
 ## Javascript
 
-- Good Practices
-- [Test with Mocha](./pages/mocha_tests.md)
+- [Guildelines](./javascript/guidelines.md)
+- [Tests with Mocha](./javascript/tests_with_mocha.md)
 
 ## NodeJS
 
