@@ -76,3 +76,26 @@ Create hotfix branch from some other commit:
 Merge hotfix back into develop and master, and tag:
 
     git flow hotfix finish VERSIONNAME
+    
+    
+    # Git Flow Quick Install
+> - Move to your bash command scripts folder
+```bash
+cd /user_folder/.bin/
+```
+> - Clone [gitflow](https://github.com/petervanderdoes/gitflow) repository
+```bash
+git clone https://github.com/petervanderdoes/gitflow
+```
+> - *(windows)* Add gitflow folder to environement variables
+```bash
+setx path "%path%;/user_folder/.bin/gitflow
+```
+> - *(windows)* Download & copy [GnuWin32](http://downloads.sourceforge.net/gnuwin32/util-linux-ng-2.14.1-dep.zip) dependencies **libiconv2.dll** and **libintl3.dll** inside .bin folder
+
+
+http://www.infuy.com/blog/git-flow-cheatsheet/
+
+https://gist.github.com/kristopherjohnson/8979538
+
+http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
