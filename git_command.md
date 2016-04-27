@@ -14,10 +14,10 @@
 
 #### Commands
 
-> Will **only applied to not staged** files, before a `git add`
-> Will not be applied after a `git add`
-> Will not be applied after a `git commit`
-> Will not be applied after a `git push`
+> Will **only applied to not staged** files, before a `git add`<br>
+> Will not be applied after a `git add`<br>
+> Will not be applied after a `git commit`<br>
+> Will not be applied after a `git push`<br>
 > Will not delete untracked files
 
 **Single/Multiple file(s)**
