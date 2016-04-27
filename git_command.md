@@ -8,13 +8,13 @@
 <br>
 ## Recording Changes to the Repository
 
-### Undo changes to not indexed files
+### Undo changes - not indexed files
 
 > Revert changes to files/folders to HEAD current branch status
 
 #### Commands
 
-> Will **only applied to not staged** files, before a `git add`<br>
+> Will **only applied to not indexed** files<br>
 > Will not be applied after a `git add`<br>
 > Will not be applied after a `git commit`<br>
 > Will not be applied after a `git push`<br>
@@ -40,10 +40,10 @@ git config --global alias.undo 'checkout --'
 ```
 
 <br>
-### Add changes to index with `git add`
+### Add files to index with `git add`
 
-> Can be applied to untracked/not staged files/folders
-> Add files to `.gitignore` file to avoid GIT to track changes on these files
+> Can be applied to untracked/not staged files/folders<br>
+> Add files to `.gitignore` file to avoid GIT to track changes on those files
 
 #### #Commands
 
@@ -68,7 +68,7 @@ git config --global alias.add-all 'add -A .'
 
 ##### Undo
 
-> Will reset files status to untracked/not staged
+> Will reset files status to not indexed
 
 **Single/multiple file(s)**
 
@@ -108,7 +108,7 @@ git config --global alias.ci 'commit'
 
 #### Add files to current `git commit` before `git push`
 
-> Add forgottent files and use `--amend` flag
+> Add forgotten files and use `--amend` flag
 
 ```bash
 git commit -m "files is missing to this commit"
@@ -124,7 +124,7 @@ git config --global alias.amend '!git add {} && git commit --amend'
 
 #### Undo last commit
 
-> Mark all changes as new
+> Mark all changes as new<br>
 > Removing previous changes from the index
 
 *Undo last commit*
@@ -167,7 +167,7 @@ git config --global alias.rewind-last 'reset HEAD~1'
 
 *--soft*
 
-> Mask last changes as new
+> Mask last changes as new<br>
 > Keep previous changes from the index
 
 ```bash
@@ -176,7 +176,7 @@ git reset --soft <commit_hash>
 
 *--mixed*
 
-> Mask all changes as new
+> Mask all changes as new<br>
 > Removing previous changes from the index
 
 ```bash
@@ -210,7 +210,7 @@ git push
 #### Undo push to remote repository
 
 > **Index history will be lost**
-> Be sure that another user has not yet pulled or merged previous changes
+> Be sure that another user has not yet pulled or merged previous changes<br>
 > You can also use `--soft` or `--mixed` flags instead of `--hard`
 
 ```bash
