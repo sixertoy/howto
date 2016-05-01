@@ -1,6 +1,12 @@
 # JS Tips
 
-## Arrays
+- [Array](#array)
+- [String](#string)
+- [Date](#date)
+- [Miscellaneous](#misc)
+
+<a name="array"></a>
+## Array
 
 **Push in an array**
 
@@ -22,7 +28,8 @@ var arr = [[1, 2],[3, 4, 5], [6, 7, 8, 9]];
 arr = [].concat.apply([], arr);
 ```
 
-## Strings
+<a name="string"></a>
+## String
 
 **First to uppercase**
 
@@ -39,6 +46,7 @@ var onestr = '1',
 onenum = (1 * one);
 ```
 
+<a name="date"></a>
 ## Date
 
 **Timestamp**
@@ -47,6 +55,7 @@ onenum = (1 * one);
 var time =  (Date.now() / 1000 | 0);
 ```
 
+<a name="misc"></a>
 ## Miscellaneous
 
 **Log execution time**
