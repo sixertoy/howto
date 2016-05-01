@@ -8,12 +8,23 @@
 ## NodeJS
 
 - Better RequireJS
+- [Serve static html pages with ExpressJS](./nodejs/expressjs_static_server.md)
 - OSX Uninstall
-- [Serve static html pages with ExpressJS](./pages/expressjs_static_server.md)
 
 ## NPM
 
-## GIT
+## Working with GIT
+
+- Undo changes
+- Working with branches
+- Collaborate with git history commands
+- Git basics
+- [Aliases and Tricks](./working-with-git/aliases-and-tricks.md)
+
+##### References
+
+- [Git Basics - Undoing Things](https://git-scm.com/book/be/v2/Git-Basics-Undoing-Things)
+- [Fixing Mistakes](https://www.kernel.org/pub/software/scm/git/docs/user-manual.html#fixing-mistakes)
 
 ### GIT-Flow
 
