@@ -1,5 +1,15 @@
 # Working with GIT Branches
 
+## Prefix & Namings
+
+Name of a branch is a JIRA's ticket
+Folders:
+- imp
+- new
+- hotfix
+
+## Commands
+
 *Create a new branch*
 
 ```bash

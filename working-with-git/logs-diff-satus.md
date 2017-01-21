@@ -5,7 +5,7 @@
 > in short version :
 > ```D``` is for deleted
 > ```M``` is for modified
-> ```??``` is for files that must be added to index
+> ```??``` unknown status/not staged file
 
 **Show status**
 
